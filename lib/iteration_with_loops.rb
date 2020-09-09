@@ -3,8 +3,11 @@
 
 def join_nested_strings(src)
   row_index = 0
+  string_data = [ ]
   while row_index < src.length do
-    src[row_index].grep(String)
+    grab_string = src[row_index].grep(String)
+    string_data.push(grab_string)
     row_index += 1  
   end
+  string_data
 end
