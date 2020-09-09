@@ -6,13 +6,10 @@ def join_nested_strings(src)
   while row_index < src.length do
     element_index = 0
     while element_index < src[row_index].length do
-     if src[row_index][element_index].grep(String)
-        string_data.join()
+     src[row_index][element_index].grep(String)
       end
       element_index += 1
     end
   row_index += 1  
   end
-  new_string = string_data.to_s
-  new_string
 end
