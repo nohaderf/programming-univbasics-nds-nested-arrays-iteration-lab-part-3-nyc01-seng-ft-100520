@@ -9,5 +9,5 @@ def join_nested_strings(src)
     string_data.push(grab_string)
     row_index += 1  
   end
-  string_data
+  string_data.join(" ")
 end
